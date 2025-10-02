@@ -13,6 +13,19 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+.navbar-toggler {
+  position: relative;
+  right: 0;
+  margin-left: auto; /* force right side */
+}
+.navbar .navbar-toggler {
+  position: absolute;
+  right: 1rem;   /* screen ke right side pe chipka do */
+  top: 0.5rem;   /* thoda upar align */
+  
+}
+
+
 .resume-checker-section {
   min-height: 100vh;
   background: #fff;
@@ -247,9 +260,8 @@ body {
     font-size: 10px;
     display: block; /* links neeche neeche aayenge */
     margin-bottom: 5px;
-   
-    
   }
+
   .footer-icons {
   text-align: center;
 }
@@ -269,6 +281,11 @@ body {
     font-size: 12px !important;
     line-height: 1.4; /* readability mobile par better hogi */
     text-align: center;
+  }
+
+  .navbar .navbar-toggler{
+    position: relative;
+    margin-right: 60px;
   }
 }
 
